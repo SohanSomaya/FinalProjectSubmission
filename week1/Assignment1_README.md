@@ -2,4 +2,4 @@
 
 
 
-#Image is a screenshot of app run on ExpoGo on phone as Android Studio emualtor was not working
+#Image is a screenshot of app run on ExpoGo on phone as Android Studio emualtor was not working.
