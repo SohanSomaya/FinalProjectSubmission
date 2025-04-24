@@ -14,7 +14,7 @@ The above screenshot depicts the list with a collection of tasks. Each task has 
 
 ![WhatsApp Image 2025-04-24 at 17 37 42_6702f78c](https://github.com/user-attachments/assets/39d9fc2f-e279-4652-91d1-4027f5c26aa7)
 
-The above screenshot depicts certain tasks beiong marked as completed. A completed task has a line going through it and has a chckmark that appears next to it, signalling its completion.
+The above screenshot depicts certain tasks beiong marked as completed. A completed task has a line going through it and has a checkmark that appears next to it, signalling its completion.
 
 
 ![WhatsApp Image 2025-04-24 at 17 37 42_148a0335](https://github.com/user-attachments/assets/ef869ea5-57f2-4402-ba8b-fefb817b8a99)
