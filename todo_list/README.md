@@ -1,5 +1,9 @@
 This application is a to-do list for everyday tasks. It features the ability to mark items as complete just by tapping on it. A completed item can also be marked as incomplete simply by tapping it again. 
 Tasks can be deleted from the list by making use of its respective 'Delete' button. 
+All operaions of the list are handled using 3 functions: 
+  -One to add items to the list.
+  -One to delete items from the list.
+  -One to toggle items as either complete or incomplete.
 
 
 ![WhatsApp Image 2025-04-24 at 17 37 42_9670544b](https://github.com/user-attachments/assets/314ddf81-86b5-470d-95c2-3ddafbc7abf9)
