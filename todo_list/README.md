@@ -1,50 +1,18 @@
-# Welcome to your Expo app 👋
+This application is a to-do list for everyday tasks. It features the ability to mark items as complete just by tapping on it. A completed item can also be marked as incomplete simply by tapping it again. 
+Tasks can be deleted from the list by making use of its respective 'Delete' button. 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![WhatsApp Image 2025-04-24 at 17 37 42_9670544b](https://github.com/user-attachments/assets/18e5c4aa-0e83-47d3-962a-c094f45108b9)
 
-## Get started
+This screenshot of the to-do list displays an empty list. The Text Input field has placeholder text that asks the user for a task that they need to accomplish.
 
-1. Install dependencies
+![WhatsApp Image 2025-04-24 at 17 37 42_6702f78c](https://github.com/user-attachments/assets/159757a8-b045-4381-8df9-861c8a2542c2)
 
-   ```bash
-   npm install
-   ```
+This screenshot depicts the list with a collection of tasks. Each task has a dedicated 'Delete' button. The tasks are added to the list in such a way that the user cannot input an 'empty' task,i.e. simply press 'Add' without typing text in the input field.
 
-2. Start the app
+![WhatsApp Image 2025-04-24 at 17 37 42_148a0335](https://github.com/user-attachments/assets/2ca8fba8-ead1-4e34-83e8-a33cc2edf363)
 
-   ```bash
-    npx expo start
-   ```
+This screenshot depicts cewrtain tasks beiong marked as completed. A completed task has a line going through it and has a chckmark that appears next to it, signalling its completion.
 
-In the output, you'll find options to open the app in a
+![WhatsApp Image 2025-04-24 at 17 37 42_5c222af3](https://github.com/user-attachments/assets/8f4f5156-9df7-47c6-acb1-944633907ef3)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This screenshot depicts the same list having 2 of the list items deleted from the list. Tasks do not have to be completed in order for them to be deleted. 
