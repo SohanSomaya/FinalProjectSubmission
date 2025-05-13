@@ -1,50 +1,23 @@
-# Welcome to your Expo app 👋
+This application is a to-do list for everyday tasks. It features the ability to mark items as complete just by tapping on it. A completed item can also be marked as incomplete simply by tapping it again. 
+Tasks can be deleted from the list by making use of its respective 'Delete' button. 
+All operaions of the list are handled using 3 functions: one to add items to the list, one to delete items from the list, and one to toggle items as either complete or incomplete.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+![WhatsApp Image 2025-04-24 at 17 37 42_9670544b](https://github.com/user-attachments/assets/314ddf81-86b5-470d-95c2-3ddafbc7abf9)
 
-1. Install dependencies
+The above screenshot of the to-do list displays an empty list. The Text Input field has placeholder text that asks the user for a task that they need to accomplish.
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+![WhatsApp Image 2025-04-24 at 17 37 42_5c222af3](https://github.com/user-attachments/assets/81ee24a2-7aa5-4bee-96bd-cf95bc12fb10)
 
-   ```bash
-    npx expo start
-   ```
+The above screenshot depicts the list with a collection of tasks. Each task has a dedicated 'Delete' button. The tasks are added to the list in such a way that the user cannot input an 'empty' task,i.e. simply press 'Add' without typing text in the input field.
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![WhatsApp Image 2025-04-24 at 17 37 42_6702f78c](https://github.com/user-attachments/assets/39d9fc2f-e279-4652-91d1-4027f5c26aa7)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The above screenshot depicts certain tasks beiong marked as completed. A completed task has a line going through it and has a checkmark that appears next to it, signalling its completion.
 
-## Get a fresh project
 
-When you're ready, run:
+![WhatsApp Image 2025-04-24 at 17 37 42_148a0335](https://github.com/user-attachments/assets/ef869ea5-57f2-4402-ba8b-fefb817b8a99)
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The above screenshot depicts the same list having 2 of the list items deleted from the list. Tasks do not have to be completed in order for them to be deleted. 
