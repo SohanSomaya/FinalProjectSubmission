@@ -5,7 +5,7 @@ export default function PictureScreen({ route }) {
   const { image } = route.params;
   return (
     <View style={styles.container}>
-      <Image source={{ uri: image.uri }} style={styles.fullImage} />
+      <Image source={image.uri} style={styles.fullImage} />
       <Text style={styles.title}>{image.title}</Text>
     </View>
   );

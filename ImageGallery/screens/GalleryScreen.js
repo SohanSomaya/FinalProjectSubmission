@@ -2,9 +2,9 @@ import React from 'react';
 import { View, FlatList, Image, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 const data = [
-  { id: '1', title: 'Sunset', uri: 'https://i.imgur.com/unxqJNH.jpg' },
-  { id: '2', title: 'Forest', uri: 'https://i.imgur.com/YCwhKEb.jpg' },
-  { id: '3', title: 'Mountain', uri: 'https://i.imgur.com/raDEzYF.jpg' },
+  { id: '1', title: 'Sunset', uri: require('./assets/sunset.jpeg') },
+  { id: '2', title: 'Forest', uri: require('./assets/forest.png') },
+  { id: '3', title: 'Mountain', uri: require('./assets/mountain.jpeg') },
 ];
 
 export default function GalleryScreen({ navigation }) {
@@ -15,7 +15,7 @@ export default function GalleryScreen({ navigation }) {
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
           <TouchableOpacity onPress={() => navigation.navigate('Picture', { image: item })}>
-            <Image source={{ uri: item.uri }} style={styles.thumbnail} />
+            <Image source={item.uri} style={styles.thumbnail} />
             <Text style={styles.caption}>{item.title}</Text>
           </TouchableOpacity>
         )}
