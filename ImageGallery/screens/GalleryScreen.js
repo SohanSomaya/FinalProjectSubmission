@@ -2,9 +2,9 @@ import React from 'react';
 import { View, FlatList, Image, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 const data = [
-  { id: '1', title: 'Sunset', uri: require('./assets/sunset.jpeg') },
-  { id: '2', title: 'Forest', uri: require('./assets/forest.png') },
-  { id: '3', title: 'Mountain', uri: require('./assets/mountain.jpeg') },
+  { id: '1', title: 'Sunset', uri: require('../assets/sunset.png') },
+  { id: '2', title: 'Forest', uri: require('../assets/forest.png') },
+  { id: '3', title: 'Mountain', uri: require('../assets/mountain.png') },
 ];
 
 export default function GalleryScreen({ navigation }) {
