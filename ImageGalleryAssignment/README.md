@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+Assignment 3 README
+-----------------------------------
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This assignment is an Image Gallery with two sections: Images, and User Profile
 
-## Get started
+![Screenshot 2025-05-15 214800](https://github.com/user-attachments/assets/b8e8d13e-57b5-4f88-8c96-9267f6a19800)
 
-1. Install dependencies
+The above pcture is the default screen.
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+![Screenshot 2025-05-15 214807](https://github.com/user-attachments/assets/740f5e6e-5687-4b55-9290-cc1bd4d86b96)
 
-   ```bash
-   npx expo start
-   ```
+Clicking the image labelled Forest brings this screen. The  user can navigate back to the previous screen utilizing the direction buton present. The same is applicable for all images.
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Screenshot 2025-05-15 214815](https://github.com/user-attachments/assets/9c408ba9-1e13-4cdd-a382-f9f382ae376f)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Above is the profile screen. Data entered on this screen is saved even when the application is closed. This is accomplished by making use of async storage.
 
-## Get a fresh project
 
-When you're ready, run:
+![Screenshot 2025-05-15 215436](https://github.com/user-attachments/assets/0a35ca9e-7382-44cd-987f-c1e1cee6c644)
 
-```bash
-npm run reset-project
-```
+If the user attemps to save without filling in the fields, a error notification pops up.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+![Screenshot 2025-05-15 214835](https://github.com/user-attachments/assets/2fe57504-6ce5-4ead-b511-ef2d0285ad48)
 
-## Learn more
+The same error appers if only one of the fields is filled.
 
-To learn more about developing your project with Expo, look at the following resources:
+![Screenshot 2025-05-15 214944](https://github.com/user-attachments/assets/f8d9554c-8328-466d-9e7e-85067c99e2d6)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+If both fields are filled and the button is pressed, then an alert stating that the profile has been updated. This information will persist even f the applciation is closed and reopened.
