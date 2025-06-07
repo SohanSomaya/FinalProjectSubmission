@@ -1,3 +1,6 @@
+Assignment4 README
+------------------------------------------------
+
 This assignment was not very straightforward, and I encountered many issues while doing it. As such, the App.js might not work OOTB, and some configuration might be neede. Please let me know if any issues arise so that I can explain the work process.
 
 
@@ -9,10 +12,10 @@ The prohram consists of two screens, SenderScreen and ReceiverScreen, which util
 
 sendMessage.php utilized PUSH, and retrieveMessages.php makes use of GET.
 
+![imagealt](https://github.com/SohanSomaya/INFO670/blob/b976ba6e7030988d06cea8b1ea168391cd15e097/FinalAssignment/WhatsApp%20Image%202025-06-07%20at%2017.45.32_e4cd3cbb.jpg)
 
-"C:\Users\somay\OneDrive\Desktop\WhatsApp Image 2025-06-07 at 17.45.32_e4cd3cbb.jpg"
 The above image is a screenshot of the SenderScreen when no parameters have been provided in the URL.
-
+http://10.185.249.41/FinalAssignment/backend/sendMessage.php
 
 ![imagealt](https://github.com/SohanSomaya/INFO670/blob/5744b79dcd4007da97a1f9c7c6f4904cf3c14dc4/FinalAssignment/WhatsApp%20Image%202025-06-07%20at%2017.45.32_5b66a2f1.jpg)
 
