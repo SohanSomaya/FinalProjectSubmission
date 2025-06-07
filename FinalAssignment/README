@@ -19,6 +19,6 @@ The above image is a screenshot of the SenderScreen when sender, receiver and me
 http://10.185.249.41/FinalAssignment/backend/sendMessage.php?sender=alice&%20recipient=bob&message=hello
 
 
-"C:\Users\somay\OneDrive\Desktop\WhatsApp Image 2025-06-07 at 17.45.32_5585323b.jpg"
+https://github.com/SohanSomaya/INFO670/blob/8e2f6bcd9530aba139b6fe74815c56b7e9a8f76e/FinalAssignment/WhatsApp%20Image%202025-06-07%20at%2017.45.32_5585323b.jpg
 The above image is a screenshot of the ReceiverScreen, with the parameter in the URL being that of the receiver.
 http://10.185.249.41/FinalAssignment/backend/retrieveMessages.php?recipient=bob
