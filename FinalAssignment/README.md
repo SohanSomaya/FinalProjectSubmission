@@ -14,7 +14,7 @@ sendMessage.php utilized PUSH, and retrieveMessages.php makes use of GET.
 The above image is a screenshot of the SenderScreen when no parameters have been provided in the URL.
 
 
-![imagealt](https://github.com/SohanSomaya/INFO670/blob/8e2f6bcd9530aba139b6fe74815c56b7e9a8f76e/FinalAssignment/WhatsApp%20Image%202025-06-07%20at%2017.45.32_5585323b.jpg)
+![imagealt](https://github.com/SohanSomaya/INFO670/blob/5744b79dcd4007da97a1f9c7c6f4904cf3c14dc4/FinalAssignment/WhatsApp%20Image%202025-06-07%20at%2017.45.32_5b66a2f1.jpg)
 
 The above image is a screenshot of the SenderScreen when sender, receiver and message parameters are all filled.
 http://10.185.249.41/FinalAssignment/backend/sendMessage.php?sender=alice&%20recipient=bob&message=hello
