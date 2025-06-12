@@ -54,8 +54,74 @@ Tech Stack
 -react-native-picker-select for dropdown selections
 
 
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/loginscreen.png)
+
+
+The above image is the default login screen
+
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joenoacc.png)
+
+Joe tries logging in, but doesnt have an account
+
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joeregacc.png)
+
+Register account
+
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joehomescreen.png)
+
+Sees home screen
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joeadditemstocart.png)
+
+
+Adds items to cart
 
 
 
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joefiltering1.png)
+
+
+Filters items (1)
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joefiltering2.png)
+
+
+Filters items (2)
+
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joecart.png)
+
+Views items in cart and checks out
+
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joeprofile.png)
+
+
+Joe profile screen. Here, Joe can check his order history and can choose to either eport it, or delete it.
+
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joe%20choose%20currency.png)
+
+Available currencies
+
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/joecurrupdates.png)
+
+
+Joe changes currency (persists)
+
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/sohanhome.png)
+
+Sohan home screen.( Items Joe bought are missing from database)
+
+
+![imagealt](https://github.com/SohanSomaya/FinalProjectSubmission/blob/20cfee7f0e64cb5a04d5e62bcce20b446a6cc30a/my-js-shop-app/sohanprofile.png)
+
+
+Sohan profile screen (unique currency choice persists)
 
 
