@@ -12,7 +12,7 @@ export default function LoginScreen({ navigation }) {
     setError('');
     const success = await login(username, password);
     if (success) {
-      navigation.replace('Home');  // ✅ replace so user can't go back
+      navigation.replace('Home');
     } else {
       setError('Invalid username or password');
     }

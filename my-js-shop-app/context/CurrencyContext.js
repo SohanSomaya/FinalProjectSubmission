@@ -7,13 +7,13 @@ export const CurrencyContext = createContext();
 export const CurrencyProvider = ({ children }) => {
   const { user } = useContext(UserContext);
   const [currency, setCurrency] = useState('USD');
-  const [conversionRate, setConversionRate] = useState(1); // USD → currency
+  const [conversionRate, setConversionRate] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
 
-  const API_KEY = '1592602d2270b2a52fb11d07'; // replace with your actual key
+  const API_KEY = '1592602d2270b2a52fb11d07'; 
   const BASE_CURRENCY = 'USD';
 
-  // Load saved currency when user logs in
+
   useEffect(() => {
   const loadUserCurrency = async () => {
     if (user?.username) {
@@ -23,7 +23,7 @@ export const CurrencyProvider = ({ children }) => {
       if (saved) {
         setCurrency(saved);
       } else {
-        // 🛠 Default to USD for new users and persist it
+        
         setCurrency('USD');
         await saveData(key, 'USD');
       }
@@ -33,7 +33,6 @@ export const CurrencyProvider = ({ children }) => {
 }, [user]);
 
 
-  // Fetch conversion rate when currency changes
   useEffect(() => {
     const fetchConversionRate = async () => {
       if (!currency || currency === BASE_CURRENCY) {
@@ -63,7 +62,6 @@ export const CurrencyProvider = ({ children }) => {
     fetchConversionRate();
   }, [currency]);
 
-  // Set + persist currency choice per user
   const updateCurrency = async (newCurrency) => {
     setCurrency(newCurrency);
     if (user?.username) {

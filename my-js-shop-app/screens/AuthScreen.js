@@ -4,7 +4,7 @@ import { UserContext } from '../context/UserContext';
 
 export default function AuthScreen() {
   const { user, login, register } = useContext(UserContext);
-  const [isLogin, setIsLogin] = useState(true); // Toggle state
+  const [isLogin, setIsLogin] = useState(true); 
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

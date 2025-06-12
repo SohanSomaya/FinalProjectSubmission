@@ -42,7 +42,7 @@ export const ItemProvider = ({ children }) => {
 
     await saveData('items', updated);
     const latest = await loadData('items');
-setItems([...latest]); // force new array ref
+setItems([...latest]); 
 
   };
 
