@@ -86,14 +86,14 @@ export default function HomeScreen() {
       />
       <TextInput
         style={styles.input}
-        placeholder="Min price"
+        placeholder="Min price (in USD)"
         keyboardType="numeric"
         value={minPrice}
         onChangeText={setMinPrice}
       />
       <TextInput
         style={styles.input}
-        placeholder="Max price"
+        placeholder="Max price (in USD)"
         keyboardType="numeric"
         value={maxPrice}
         onChangeText={setMaxPrice}
